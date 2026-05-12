@@ -1,0 +1,234 @@
+{
+  "user": {
+    "id": "u001",
+    "name": "Sreejith M",
+    "email": "sreejith@yopmail.com",
+    "avatar": "",
+    "billingAddress": {
+      "addressLine1": "House No: 1, Main Line",
+      "landmark": "Near, Fire Station",
+      "city": "Kochi 1",
+      "state": "Kerala",
+      "country": "India",
+      "postalCode": "923722"
+    },
+    "paymentMethod": {
+      "cardHolderName": "Sreejith M V",
+      "cardNumber": "2378 XXXX XXXX 2342",
+      "expiryDate": "12/24"
+    }
+  },
+  "categories": [
+    { "id": "cat_all", "name": "All", "icon": "apps" },
+    { "id": "cat_men", "name": "Men", "icon": "man" },
+    { "id": "cat_women", "name": "Women", "icon": "woman" },
+    { "id": "cat_kids", "name": "Kids", "icon": "child_care" },
+    { "id": "cat_casual", "name": "Casual", "icon": "checkroom" },
+    { "id": "cat_formal", "name": "Formal", "icon": "business_center" }
+  ],
+  "products": [
+    {
+      "id": "p001",
+      "name": "Fashion Blue",
+      "category": "cat_women",
+      "price": 8999,
+      "originalPrice": 11000,
+      "rating": 4.5,
+      "reviewCount": 128,
+      "description": "A stunning blue oversized blazer jacket that combines style and comfort. Perfect for both casual outings and semi-formal occasions. Made with premium quality fabric that ensures durability and a flattering fit.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Blue", "Black", "White"],
+      "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80",
+        "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600&q=80"
+      ],
+      "isFeatured": true,
+      "isNew": false
+    },
+    {
+      "id": "p002",
+      "name": "Doller Chain",
+      "category": "cat_men",
+      "price": 5999,
+      "originalPrice": 7500,
+      "rating": 4.2,
+      "reviewCount": 89,
+      "description": "A sleek and modern men's chain-link jacket with a bold design. Crafted for the fashion-forward individual who likes to make a statement. Features a comfortable inner lining for all-day wear.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Black", "Grey"],
+      "imageUrl": "https://images.unsplash.com/photo-1617137968427-85924c800a22?w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617137968427-85924c800a22?w=600&q=80",
+        "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
+      ],
+      "isFeatured": true,
+      "isNew": true
+    },
+    {
+      "id": "p003",
+      "name": "Girl Casual",
+      "category": "cat_women",
+      "price": 599,
+      "originalPrice": 999,
+      "rating": 4.0,
+      "reviewCount": 213,
+      "description": "A fun and breezy casual outfit for girls. Light, comfortable and trendy. Ideal for day outings, casual hangouts, or relaxed weekend wear. Available in multiple vibrant colors.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Pink", "White", "Yellow"],
+      "imageUrl": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=600&q=80",
+        "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80"
+      ],
+      "isFeatured": false,
+      "isNew": true
+    },
+    {
+      "id": "p004",
+      "name": "Kids Fashion Concept",
+      "category": "cat_kids",
+      "price": 2000,
+      "originalPrice": 2500,
+      "rating": 4.7,
+      "reviewCount": 55,
+      "description": "Stylish and playful kids' fashion ensemble. Designed with safety and comfort in mind, using soft, breathable fabrics. Perfect for school events, birthdays, and casual outings.",
+      "sizes": ["S", "M", "L"],
+      "colors": ["Blue", "Red", "Green"],
+      "imageUrl": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&q=80",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80"
+      ],
+      "isFeatured": true,
+      "isNew": false
+    },
+    {
+      "id": "p005",
+      "name": "Urban Denim",
+      "category": "cat_men",
+      "price": 3499,
+      "originalPrice": 4500,
+      "rating": 4.3,
+      "reviewCount": 176,
+      "description": "Classic urban denim jacket with a modern cut. Timeless style that pairs perfectly with any outfit. Features reinforced stitching, multiple pockets, and adjustable fit.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Blue", "Black", "Light Blue"],
+      "imageUrl": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80",
+        "https://images.unsplash.com/photo-1604644401890-0bd678c83788?w=600&q=80"
+      ],
+      "isFeatured": false,
+      "isNew": false
+    },
+    {
+      "id": "p006",
+      "name": "Floral Summer Dress",
+      "category": "cat_women",
+      "price": 1799,
+      "originalPrice": 2200,
+      "rating": 4.6,
+      "reviewCount": 302,
+      "description": "A beautiful floral print summer dress that's light, airy, and perfect for warm days. The elegant flowing silhouette flatters all body types. Made from 100% organic cotton.",
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "colors": ["Floral Blue", "Floral Pink", "Floral Yellow"],
+      "imageUrl": "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?w=600&q=80",
+        "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=600&q=80"
+      ],
+      "isFeatured": true,
+      "isNew": true
+    },
+    {
+      "id": "p007",
+      "name": "Formal Blazer",
+      "category": "cat_formal",
+      "price": 6999,
+      "originalPrice": 9000,
+      "rating": 4.8,
+      "reviewCount": 98,
+      "description": "A sharp, well-tailored formal blazer for the modern professional. Crafted from premium wool blend fabric for a sophisticated look and feel. Perfect for office wear, meetings, and formal events.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Charcoal", "Navy", "Black"],
+      "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4b4a5e?w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1594938298603-c8148c4b4a5e?w=600&q=80",
+        "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=80"
+      ],
+      "isFeatured": false,
+      "isNew": false
+    },
+    {
+      "id": "p008",
+      "name": "Casual Hoodie",
+      "category": "cat_casual",
+      "price": 1299,
+      "originalPrice": 1800,
+      "rating": 4.4,
+      "reviewCount": 445,
+      "description": "Super soft and cozy casual hoodie, perfect for lounging at home or stepping out on a cool day. Made from a blend of cotton and polyester for maximum comfort and warmth.",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Grey", "Black", "Navy", "Olive"],
+      "imageUrl": "https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=600&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=600&q=80",
+        "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=600&q=80"
+      ],
+      "isFeatured": false,
+      "isNew": true
+    }
+  ],
+  "banners": [
+    {
+      "id": "b001",
+      "title": "New Arrivals",
+      "subtitle": "Up to 40% Off",
+      "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "color": "#1A237E"
+    },
+    {
+      "id": "b002",
+      "title": "Summer Collection",
+      "subtitle": "Fresh & Trendy Styles",
+      "imageUrl": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800&q=80",
+      "color": "#004D40"
+    },
+    {
+      "id": "b003",
+      "title": "Kids Special",
+      "subtitle": "Adorable outfits for little ones",
+      "imageUrl": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=800&q=80",
+      "color": "#880E4F"
+    }
+  ],
+  "orders": [
+    {
+      "id": "o001",
+      "orderNumber": "4415",
+      "orderDate": "23-05-2023",
+      "status": "Cancelled",
+      "items": [
+        { "productId": "p001", "productName": "Fashion Blue", "size": "M", "quantity": 1, "price": 8999 }
+      ],
+      "grossPrice": 8999,
+      "tax": 1619.82,
+      "totalPrice": 10618.82
+    },
+    {
+      "id": "o002",
+      "orderNumber": "6669",
+      "orderDate": "24-05-2023",
+      "status": "Order Placed",
+      "items": [
+        { "productId": "p002", "productName": "Doller Chain", "size": "S", "quantity": 1, "price": 5999 },
+        { "productId": "p003", "productName": "Girl Casual", "size": "XL", "quantity": 2, "price": 599 },
+        { "productId": "p004", "productName": "Kids Fashion Concept", "size": "S", "quantity": 2, "price": 2000 }
+      ],
+      "grossPrice": 11197,
+      "tax": 2015.46,
+      "totalPrice": 13212.46
+    }
+  ]
+}
